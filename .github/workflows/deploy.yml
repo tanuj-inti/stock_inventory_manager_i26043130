@@ -31,6 +31,7 @@ jobs:
       - name: Set up Flutter
         uses: subosito/flutter-action@v2
         with:
+          flutter-version: '3.35.6'
           channel: 'stable'
           cache: true
 
@@ -39,12 +40,7 @@ jobs:
 
       - name: Build Web Application
         run: |
-          if [ "${{ github.event.repository.name }}" = "${{ github.repository_owner }}.github.io" ]; then
-            flutter build web --release --base-href "/"
-          else
-            flutter build web --release --base-href "/${{ github.event.repository.name }}/"
-          fi
-          # Copy index.html to 404.html to support SPA routing on GitHub Pages
+          flutter build web --release --base-href "/stock_inventory_manager_i26043130/"
           cp build/web/index.html build/web/404.html
 
       - name: Configure GitHub Pages
