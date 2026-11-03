@@ -1,6 +1,6 @@
 # Stock Inventory Manager
 
-**Student:** Tanuj Sakthi Kumar | **University:** SIST | **Student ID:** `[ADD STUDENT ID]` | **Tutorial group:** `[ADD GROUP]`
+**Student:** Tanuj Sakthi Kumar | **University:** SIST | **Student ID:** `i26043130` | **Tutorial group:** `[ADD GROUP]`
 **Course:** NET4207 Cross Platform Mobile App Development (Lab Test)
 
 A Flutter app that saves stock items to Firebase Cloud Firestore, reads them back live, and supports combined search, low-stock filtering and quantity sorting.
@@ -8,8 +8,8 @@ A Flutter app that saves stock items to Firebase Cloud Firestore, reads them bac
 ## 🌐 Live Web Application
 
 This Flutter application is configured to deploy automatically to GitHub Pages via GitHub Actions:
-- **Live Website URL:** Visit the GitHub Pages link displayed in the **About** section or **Deployments** of this repository!
-- Once pushed to GitHub, it is accessible at: `https://<github-username>.github.io/<repository-name>/`
+- **Live Website URL:** **[https://tanuj-inti.github.io/stock_inventory_manager_i26043130/](https://tanuj-inti.github.io/stock_inventory_manager_i26043130/)**
+- Once deployed via GitHub Actions, clicking the link above or the link in the GitHub **About** section will immediately open the web application!
 
 ## Setup and run
 
